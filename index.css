@@ -1,0 +1,330 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Circular , spotify-circular,Helvetica,Arial,sans-serif;;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 80px;
+    width: 1536px;
+    background-color: black;
+   
+   
+}
+
+.head-containar{
+    height: inherit;
+    width: inherit;
+    display: flex;
+   
+}
+.icon{
+    height: inherit;
+    width: 50%;
+}
+
+.icon-image{
+height: 40px;
+padding-left: 190px;
+padding-top: 20px;
+}
+.nav{
+    width: 50%;
+    height: inherit;
+    padding-left: 95px;
+}
+.nav-items{
+    display: flex;
+   
+    gap: 25px;
+    align-items: center;
+    padding-top: 12px;
+
+}
+.nav-item{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+  
+    font-weight: bold;
+    align-items: center;
+}
+.nav-item:hover{
+    color: #1ED760;
+}
+.saperator{
+    background-color: #fff;
+    width: .5px;
+    height: 20px;
+}
+
+
+
+
+
+section{
+    
+    width: 1536px;
+    background-color: #2941ab;
+   background-image:url(/spotify/images/backgroud.svg);
+   background-size: 175%;
+    background-position: 46% 4%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 856px;
+}
+.section-container{
+    height: 856px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    height: 372px;
+    width: 800px;
+    display: block;
+}
+.main-text{
+    margin: 0;
+    font-family:  spotify-circular, Helvetica, Arial, sans-serif;;
+    color: #1ED760;
+   font-size: 140px;
+   font-weight: bolder;
+   padding-bottom: 40px;
+   width: 800px;
+    text-indent: -3.3em;
+    transform: translate(125px, 0px);
+    line-height: 166px;
+    letter-spacing: -0.04em ;
+    box-sizing: border-box;
+    display: block;
+    padding: 0px 0px 0.67em;
+    font-weight: 800;
+   
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+.motto-text{
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+    color: #1ED760;
+    font-weight: 600;
+}
+.get-btn{
+    background-color: #1ED760;
+   font-size: 14px;
+   font-weight: 700;
+   color: #2941ab;
+    height: 48px;
+    width: 189px;
+    border-radius: 500px;
+    border: 0;
+    
+}
+.get-start-btn{
+    padding-top: 6px;
+}
+.get-btn:hover{
+    background-color: #2DE26D ;
+    transform: scale(1.08);
+    transition: 0.5s;
+    cursor: pointer;
+    
+
+}
+
+footer{
+    height: 530px;
+    width: 1536px;
+    background-color: #000;
+  display: flex;
+  justify-content: center;
+    
+}
+.all-footer{
+    display: flex;
+    height: 400px;
+    width: 1170px;
+    margin: auto;
+   
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.logo{
+    height: 346px;
+    width: 195px;
+    
+    
+}
+.icon-foot{
+    height: 40px;
+    
+}
+.furthers{
+    height: 346px;
+    width: 585px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+.footer-cate{
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.foot-link{
+    text-decoration: none;
+    color: #fff;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 10px;
+    font-family: Circular , spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2.5;
+    letter-spacing: .08em;
+
+
+}
+.foot-link:hover{
+    color: #1ED760;
+}
+.social-links{
+     height: 346px;
+    width: 192px;
+
+    margin-left: auto;
+    display: flex;
+    
+    justify-content: space-around;
+
+    
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+   
+}
+.frame{
+    width: 54px;
+    height: 54px;
+    background-color: #222326;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+}
+.social-icon{
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+}
+.social-icon:hover{
+    background-color: #1ED760;
+}
+.nation{
+    height: 15px;
+    width: inherit;
+    
+    display: flex;
+    justify-content: right;
+}
+.globe{
+    height: inherit;
+    width: auto;
+    background-color: #000;
+    
+}
+.globe-image{
+    height: 15px;
+    width: auto;
+    background-color: #9A9B9D;
+    border-radius: 50%;
+}
+.footer-text{
+    height: inherit;
+    width: auto;
+    
+}
+.india {
+    color: #9A9B9D;
+    margin: 0;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.india:hover{
+    color: #1ED760;
+}
+.about-legel{
+    height: 39px;
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right-most-foot{
+   
+    width: 80%;
+    height: inherit;
+    display: flex;
+   
+}
+.legel-prop{
+    color: #9A9B9D;
+    font-size: 12px;
+    margin-right: 30px;
+}
+.legel-prop:hover{
+    color: #1ED760;
+}
+.legel-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-most-foot{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.copy{
+    height: 15px;
+    width: 15px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+.copy-img{
+    border-radius: 50%;
+    height: 15px;
+    background-color: #9A9B9D;
+}
+.company{
+     padding: 0;
+    margin: 0;
+}
+.company-name{
+   
+    color: #9A9B9D;
+    font-size: 12px;
+}
